@@ -122,7 +122,6 @@ if (!isset($_SESSION['username'])) {
 				<ul class="nav navbar-nav navbar-right">
 					<li> <a href="">Home</a></li>
 					<li> <a href="#myservice_section">Materi Pembelajaran</a></li>
-					<li> <a href="#work">Works</a></li>
 					<li> <a href="logout.php" id="our-location" class="btn-success" ><?php echo $_SESSION['username'];   ?></a></li>
 				</ul>
 	                 <!------Navigation menus ends---->
@@ -201,9 +200,9 @@ if (!isset($_SESSION['username'])) {
          	<div class="row">
          		<div class="col-xs-12">
          			<div class="section-title text-center">
-         				<h2><b>SERVICES</b></h2>
+         				<h2><b>MATERI</b></h2>
          				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
+         					 <br>
          				</p>
          			</div>
          		</div>
@@ -216,8 +215,7 @@ if (!isset($_SESSION['username'])) {
          				</div>
          				<h3><a href="programmingdemo.php">PROGRAMMING</a></h3>
          				<p>
-         					Here you will find all the lecture tutorials related to programming languages 
-         					like JAVA,PYTHON,ANDROID etc
+         					Materi Pembelajaran Tentang Bahasa Pemrograman
          				</p>
          			</div>
          		</div>
@@ -227,10 +225,9 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-laptop"></i>
          				</div>
-         				<h3><a href="video tutorials\java\display_video_courses.php">VIDEO TUTORIALS</a></h3>
+         				<h3><a href="video tutorials\java\display_video_courses.php">Video Tutorial</a></h3>
          				<p>
-         					Here you will find all the videos tutorials related to programming languages 
-         					like JAVA,PYTHON,ANDROID etc
+         					Video Pembelajaran Tentang Bahasa Pemrograman
          				</p>
          			</div>
          		</div>
@@ -240,247 +237,27 @@ if (!isset($_SESSION['username'])) {
          				<div class="service-icon">
          					<i class="fa fa-laptop"></i>
          				</div>
-         				<h3><a href="online_quize/quizhome.php">EXERCISE</a></h3>   <!--  exercise/exercise.php -->
+         				<h3><a href="online_quize/quizhome.php">Latihan</a></h3>   <!--  exercise/exercise.php -->
          				<p>
-         					Here you will find problem programs for practice and their implementation also which will improve your coding skill
+         					Latihan Soal
          				</p>
          			</div>
          		</div>
-<!-- 
-         		<div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-laptop"></i>
-         				</div>
-         				<h3><a href="">WEB DESIGN</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div>
- -->
-         		<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-laptop"></i>
-         				</div>
-         				<h3><a href="">COMPUTER SCIENCE</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div>
- -->
-         		<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-         			<div class="service-wrap text-center">
-         				<div class="service-icon">
-         					<i class="fa fa-user"></i>
-         				</div>
-         				<h3><a href="">TECH NEWS</a></h3>
-         				<p>
-         					this is our serices theses are the services provided by us <br>this are the services provided by us
-         				</p>
-         			</div>
-         		</div> -->
          	</div>
          </div>
      </div>
 
 			<!---Our Services Section Ends------->
 
-			<!---Emailnotification Section Start------->
-
-
-
-			<!---Emailnotification Section Start------->
-
-
-			<!---Our Services Section Ends------->
-
-			<section class="work" id="work"><br>
-				<h2 id="work-heading" class="text-center" style="font-weight: bold;">OUR WORK</h2>
-				<p class="text-center">join us to improve your works join us to improve your works</p>
-				<div class="container-fluid">
-					<!---first row start-->
-					<div class="row no-gutters">
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work1.png" title="this is a sky image">
-								<img src="img/work1.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work2.png" title="this is a sky image">
-								<img src="img/work2.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work3.png" title="this is a sky image">
-								<img src="img/work3.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work4.png" title="this is a sky image">
-								<img src="img/work4.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-
-					
-					<!---first row ends-->
-
-
-					<!-------second row starts  --->
-					
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work5.png" title="this is a sky image">
-								<img src="img/work5.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work6.png" title="this is a sky image">
-								<img src="img/work6.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work7.png" title="this is a sky image">
-								<img src="img/work7.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work8.png" title="this is a sky image">
-								<img src="img/work8.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					
-					
-					<!---second row ends-->
-					
-				</div>
-				
-
-
-			</section>
-
-			<!---Our Services Section Ends------->
-
-			<!-- introduction video section starts -->
-
-		<!-- 	<br><br><br><br>
-
-		<section class="header7 cid-rjrjygOfd1" id="header7-3">
-
-    
-		    <div class="container">
-		        <div class="media-container-row">
-
-		            <div class="media-content align-right">
-		                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">
-		                    Intro with Video
-		                </h1>
-		                <div class="mbr-section-text mbr-white pb-3">
-		                    <p class="mbr-text mbr-fonts-style display-5">
-		                        Intro with background color, paddings and a video on the right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
-		                    </p>
-		                </div>
-		                <div class="mbr-section-btn">
-		                        <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
-		                        <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
-		                </div>
-		            </div>
-
-		            <div class="mbr-figure" style="width: 100%;"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/uNCr7NdOJgw?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
-
-		        </div>
-    	</div>
-		</section> -->
-
-
-  
-
-			<!-- introduction video section ends -->
+		
 
 
 				<!---footer Section Start	----->
 
-<br><br>
+<br>  <br>
 
 <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-                <p>Deckripsi .</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2023</span><span> </span><span>lt</span><span>. </span><span>All Rights Reserved.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h5>Contacts</h5>
-              <dl class="contact-list">
-                <dt>Address:</dt>
-                <dd>jogja</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">lt@gmail.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>phones:</dt>
-                <dd><a href="tel:#">08923</a> <span>or</span> <a href="tel:#">08934</a>
-                </dd>
-              </dl>
-			  
-            </div>
-			<div class="col-md-4 col-xl-3">
-              <h5>Links</h5>
-              <ul class="nav-list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Pricing</a></li>
-              </ul>
-            </div>
-          </div>
+       
         </div>
        
 

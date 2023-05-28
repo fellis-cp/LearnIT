@@ -115,7 +115,7 @@ ul li a:hover
 	margin-top: 0;
 	position: absolute;
 	height: 100vh;
-	background-image: url(..//img/.png);
+	background-image: url(..//img/pg.jpg);
 	background-size: cover;
 	background-position: center;	
 }
@@ -268,7 +268,7 @@ margin-top: 5px;
 	padding: 40px !important;
 	width: 310px !important;
 	height: 400px !important;
-	background-image: url(..//img/.jpg);
+	background-image: url(..//img/pg.jpg);
 	margin-top: -58px !important;
 	background-size: cover !important;
 }
