@@ -41,7 +41,7 @@ include "../../admin/includes/navbar.php";
 
 <br><br><br>
 	<div class="container-fluid position-relative">
-<center style="height: 50px; background-color: #aeaeaee0; "><p class="text-white h3" style="" >watch free <?php echo $_GET['course_name']; ?> online videos</p></center><br><br>
+<center style="height: 50px; background-color: #aeaeaee0; "><p class="text-white h3" style="" >Video pembelajaran <?php echo $_GET['course_name']; ?></p></center><br><br>
 
 		<div class="row">
 			

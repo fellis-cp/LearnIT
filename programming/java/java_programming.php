@@ -86,11 +86,6 @@
                  <!------Navigation menus starts---->
 				<ul class="nav navbar-nav navbar-right">
 					<li> <a href="../../index.php">Home</a></li>
-					<li> <a href="">Our Service</a></li>
-					<li> <a href="">Works</a></li>
-					<li> <a href="">Team</a></li>
-					<li> <a href="">About</a></li>
-					<li> <a href="">Carrier</a></li>
 					<li> <a href="" id="our-location" class="btn-success" data-target="#mymodal" data-toggle="modal"><?php echo $_SESSION['username'];   ?></a></li>
 				</ul>
 	                 <!------Navigation menus ends---->

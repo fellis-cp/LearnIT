@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unique Developer</title>
+	<title>LearnIT</title>
 	<!----css file link-->
 	<link rel="stylesheet" type="text/css" href="../..//css/java_programming.css">
 
@@ -74,7 +74,7 @@ background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, F
 
 				</button>
 
-				<h1 style="color: white;margin-top: 10px;" id="myhead">Unique Developer</h1>
+				<h1 style="color: white;margin-top: 10px;" id="myhead">LearnIT</h1>
 			</div>
 			<div class="collapse navbar-collapse" id="navi">
                  <!------Navigation menus starts---->
