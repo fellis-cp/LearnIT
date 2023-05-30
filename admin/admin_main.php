@@ -136,12 +136,10 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
       <div class="row">
         <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
          <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Quize</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Users</a></li>
+            <li class="list-group-item  bg-dark "><a href="">Selamat Datang Admin</a></li>
+            <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Materi</a></li>
+            <li class="list-group-item bg-dark"><a href="">Manage kuis</a></li>
+            <li class="list-group-item bg-dark"><a href="">Manage Video</a></li>
             <li class="list-group-item bg-dark"><a href="">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
@@ -172,7 +170,7 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
 
               <img class="myimg" src="../uploadimg/file3.png" alt="Card" width="288" height="200">
               <div class="card-body">
-                <p class="card-text"><a href="manage_courses/manage_courses.php" style="text-decoration: none;">MANAGE YOUR COURSE <i class="fa fa-book ml-3"></i></a></p>
+                <p class="card-text"><a href="manage_courses/manage_courses.php" style="text-decoration: none;">Manage Course<i class="fa fa-book ml-3"></i></a></p>
               </div>
             </div>
             
@@ -188,7 +186,7 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
 
               <img class="" src="../uploadimg/file4.png" alt="Card" width="288" height="200">
               <div class="card-body">
-                <p class="card-text "><a href="manage_videos/manage_videos.php" style="text-decoration: none; color: orangered">MANAGE YOUR VIDEOS</a><i class="fa fa-video-camera ml-3" style="color: orangered"></i></p>
+                <p class="card-text "><a href="manage_videos/manage_videos.php" style="text-decoration: none; color: orangered">Manage video</a><i class="fa fa-video-camera ml-3" style="color: orangered"></i></p>
               </div>
             </div>
             
@@ -207,7 +205,7 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
            <div class="card shadow border-0 " style="width: 15rem; height: 110px; box-shadow: 2px 3px #827171; border-radius:0px; border-top-left-radius: 0px;">
 
               <div class="card-body">
-                <p class="card-text text-white"><b class="h4">No. Of Courses </b><br><span style="font-size: 20px;"><?php $admin->display_course_count(); ?></span></p>
+                <p class="card-text text-white"><b class="h4">Banyak Materi </b><br><span style="font-size: 20px;"><?php $admin->display_course_count(); ?></span></p>
               </div>
             </div>
 
@@ -219,7 +217,7 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
            <div class="card shadow border-0" style="width: 15rem; height: 110px; box-shadow: 2px 2px #827171; border-radius:0px; border-top-left-radius: 0px;">
 
              <div class="card-body">
-                <p class="card-text text-white"><b class="h4">No. Of Videos</b><br><span style="font-size: 20px;"><?php $admin->display_video_count(); ?></span></p>
+                <p class="card-text text-white"><b class="h4">Banyak Video</b><br><span style="font-size: 20px;"><?php $admin->display_video_count(); ?></span></p>
               </div>
 
         </td>
@@ -239,39 +237,7 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
 
               <div class="col-md-8">    <!-- list of users starts -->
 
-                <table class="table ml-5 bg-white shodow pl-5 table-responsive" style=" height : 355px;overflow-y: scroll;display: inline-block; width: 640px;"> 
-                  
-                 <!-- table stsrts  -->  <!--  use table-responsive class -->
-                <p class="ml-5">List of users</p>
-                <thead>
-                  <tr>
                 
-                    <th scope="col">id</th>
-                    <th scope="col">Username</th>
-                    <th scope="col">Password</th>
-                    <th scope="col">email id</th>
-                  </tr>
-                </thead>
-                <tbody style="">
-
-                   <?php 
-                          foreach ($userd as $userdata) {
-                            
-                          
-                   ?> 
-                  <tr >
-                    <th scope="row"><?php echo $userdata['id']; ?></th>
-                    <td ><?php echo $userdata['username']; ?></td>
-                    <td><?php echo $userdata['password']; ?></td>
-                    <td><?php echo $userdata['email']; ?></td>
-                  </tr>
-                 
-                 <?php } ?>
-                </tbody>
-              </table>
-
-                <!-- table ends  -->
-
 
 
               </div>   <!-- list of users ends -->
@@ -294,45 +260,10 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
               
 
 
-            </div>  <!--  second row closed -->
+            </div> <!--  second row closed -->
 
-
-
-
-            <div class="row">     <!-- third row starts -->
-
-              <div class="col-md-8 ml-5">       <!-- FAQ section starts -->
-
-              <table class="table bg-white" style="height : 355px;overflow-y: scroll;display: inline-block; width:640px">
-                  <caption>List of users</caption>
-                  <thead>
-                    <tr>
-                      <th>id</th>
-                      <th scope="col">MANAGE FAQs   <a href="" class="float-right" style="text-decoration: none;">Edit</a></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-
-                    <?php  $faq=$admin->display_faq_list();
-
-                      foreach ($faq as $faq_list)
-                       {
-                          
-                     ?>
-
-                    <tr style="width: 500px;" >
-                      <th><?php echo $faq_list['id']; ?></th>
-                      <td><?php echo $faq_list['faq_title']; ?><br><blockquote class="rounded p-2 text-muted " style="font-size: 13px; background-color: #db6a8f57;"><?php echo $faq_list['faq_description']; ?></blockquote></td>
-                    </tr>
-
-                  <?php } ?>
-                   
-                   
-                  </tbody>
-                </table>
-                </div>    <!-- FAQ section ends -->
               
-            </div>              <!--   third row starts -->
+            </div>  <!--   third row starts -->
 
 
 
