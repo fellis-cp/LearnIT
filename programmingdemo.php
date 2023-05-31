@@ -117,7 +117,7 @@ ul, ol {
 
 				</button>
 
-				<h1 style="color: white;margin-top: 10px;" id="myhead">Unique Developer</h1>
+				<h1 style="color: white;margin-top: 10px;" id="myhead">LearnIT</h1>
 			</div>
 			<div class="collapse navbar-collapse" id="navi">
                  <!------Navigation menus starts---->

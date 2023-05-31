@@ -22,7 +22,7 @@
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: #fff
+	background: #000000
 	url('C:/xampp/htdocs/MyResponsiveWebsite/icons/mypreloader.gif')
 	 no-repeat center;	
 	z-index: 99999;
@@ -253,7 +253,7 @@ ul li a:hover
  position: relative !important;
  margin:5% auto    !important;
  height: 400px !important;
- background: #fff !important;
+ background: #000000 !important;
  box-shadow: 0 2px 4px rgba(0,0,0,0.6)
 }
 .left-box
@@ -288,7 +288,7 @@ input[type="text"]
 	height: 32px !important;
 	border: none !important;
 	border-radius: 2px !important;
-	color: #fff !important;
+	color: #000000 !important;
 	font-weight:500px !important;
 	text-transform: uppercase !important;
 	transition: 0.5 ease-in !important;
@@ -338,7 +338,7 @@ input[type="text"]
 	display: block;
 	margin-bottom: 40px;
 	font-size: 20px;
-	color: #fff;
+	color: #000000;
 	text-align: center;
 	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
@@ -350,7 +350,7 @@ button.social
 	height: 36px;
 	border: none;
 	border-radius: 2px;
-	color:#fff;
+	color:#000000;
 	font-weight: 500;
 	transition: 0.4s ease;
 	cursor: pointer;

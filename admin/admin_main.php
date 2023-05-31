@@ -138,8 +138,8 @@ background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, F
          <ul class="list-group text-white sidebar-list">
             <li class="list-group-item  bg-dark "><a href="">Selamat Datang Admin</a></li>
             <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Materi</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage kuis</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Video</a></li>
+            <li class="list-group-item bg-dark"><a href="manage_quiz/manage_quiz.php">Manage kuis</a></li>
+            <li class="list-group-item bg-dark"><a href="manage_videos/manage_videos.php">Manage Video</a></li>
             <li class="list-group-item bg-dark"><a href="">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
