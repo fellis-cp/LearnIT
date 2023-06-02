@@ -164,7 +164,7 @@ body {
 
         <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
          <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item bg-dark"><a href="">Manage Quize</a></li>            
+            <li class="list-group-item bg-dark"><a href="">Manage Videos</a></li>            
             <li class="list-group-item bg-dark" style="height: 700px;"></li>
           </ul>
         </div>

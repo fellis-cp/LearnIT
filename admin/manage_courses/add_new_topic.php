@@ -59,12 +59,8 @@
 
         <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
          <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="">Welcome Admin</a></li>
             <li class="list-group-item bg-dark "><a href="manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="manage_quiz.php">Manage Quize</a></li>
-            <li class="list-group-item bg-dark"><a href="manage_video.php">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="">Logout</a></li>
-            <li class="list-group-item bg-dark" style="height: 400px;"></li>
+            <li class="list-group-item bg-dark" style="height: 700px;"></li>
           </ul>
         </div>
 
