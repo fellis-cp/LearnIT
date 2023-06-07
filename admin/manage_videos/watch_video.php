@@ -67,13 +67,7 @@
 
         <div class="col-sm-2 col-md-2 sidebar badge-dark" style="margin:inherit;" id="sidebar" >
          <ul class="list-group text-white sidebar-list">
-            <li class="list-group-item  bg-dark "><a href="">Welcome Admin</a></li>
-            <li class="list-group-item bg-dark "><a href="manage_courses/manage_courses.php">Manage Courses</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Quize</a></li>
             <li class="list-group-item bg-dark"><a href="">Manage Videos</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Comments</a></li>
-            <li class="list-group-item bg-dark"><a href="">Manage Users</a></li>
-            <li class="list-group-item bg-dark"><a href="">Logout</a></li>
             <li class="list-group-item bg-dark" style="height: 400px;"></li>
           </ul>
         </div>
@@ -86,7 +80,7 @@
 
       <div class="col-md-10 ">   <!--  main body content starts -->
 
-        <h3 class="text-center mt-2">Manage Your <?php  echo $_GET['course_name'];  ?> &nbsp online video tutorial</h3><br>
+        <h3 class="text-center mt-2">Edit Video<?php  echo $_GET['course_name'];  ?> </h3><br>
         <div class="row  ml-2">
        
       <section class="col-md-7 mt-4">
