@@ -36,9 +36,9 @@ include "../../admin/includes/navbar.php";
 .div1                           /* for title image*/
 {
    position: relative;
-    height: 500px;
-    width: 1263px;
-    background:url(jb.jpg);
+    height: 455px;
+    width: 728px;
+    background:url(1.jpg);
 }
 
 
